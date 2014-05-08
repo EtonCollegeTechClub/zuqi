@@ -17,3 +17,12 @@ You must install two python packages using pip to help develop.
 * pip install -e git+git://github.com/silverfix/django-nested-inlines.git#egg=django-nested-inlines
 
 Please ask if you need asistance in doing this.
+
+To run a server run these two commands.
+
+When running this line make an account
+python manage.py syncdb 
+python manage.py runserver
+
+You can access your new site at
+http://localhost:8000/admin
